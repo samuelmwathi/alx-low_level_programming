@@ -1,7 +1,13 @@
-# include<stdio.h>
+#include <stdio.h>
 
-int main(){
- char output[]="Programming is like building a multilingual puzzle";
- puts(output);
- return 0;
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char string[]="Programming is like building a multilingual puzzle\n";
+	puts(string);
+    return (0);
 }
