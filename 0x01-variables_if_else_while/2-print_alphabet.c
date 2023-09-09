@@ -9,6 +9,6 @@
 int main(void)
 {
 char b = 'B';
-putchar(tolower(b));
+putchar(tolower('B'));
 return (0);
 }	
