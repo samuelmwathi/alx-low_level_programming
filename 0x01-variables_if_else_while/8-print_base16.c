@@ -13,7 +13,7 @@ char hex;
 for (b = 0; b <=9,b++)
 putchar('0' + b);
 for (hex = 'a',hex <= 'f',hex++)
-putchar('0' + hex);
+putchar(hex);
 putchar('\n');
 return (0);
 }
