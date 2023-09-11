@@ -8,9 +8,12 @@
 int main(void)
 {
 int b;
+char hex;
 
-for (b = 0; b > 16; b++)
+for (b = 0; b <=9,b++)
 putchar('0' + b);
+for (hex = 'a',hex <= 'f',hex++)
+putchar('0' + hex);
 putchar('\n');
 return (0);
 }
