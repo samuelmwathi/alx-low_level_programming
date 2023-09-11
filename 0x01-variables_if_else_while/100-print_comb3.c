@@ -14,8 +14,8 @@ for (b = '0'; b <= '9'; b++)
 {
 for (a = b + '1'; a <= '9'; a++)
 {
-putchar(a);
 putchar(b);
+putchar(a);
 if (b != '9')
 {
 
