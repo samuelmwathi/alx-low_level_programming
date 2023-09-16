@@ -18,7 +18,7 @@ if (x == 98)
 {
 printf("%i\n", x);
 }
-else 
+else
 {
 printf("%i, ", x);
 }
