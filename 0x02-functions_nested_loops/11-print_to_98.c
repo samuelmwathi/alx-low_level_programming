@@ -32,7 +32,7 @@ while (x <= 98)
 {
 if (x == 98)
 {
-printf("%i\n ", x);
+printf("%i\n", x);
 }
 else 
 {
