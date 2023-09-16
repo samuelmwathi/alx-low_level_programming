@@ -8,12 +8,12 @@ void print_to_98(int x)
 {
 if (x == 98)
 {
-printf("%i \n", x);
+printf("%i\n", x);
 
 }
-if (x > 98)
+else if (x > 98)
 {
-while (x >=98)
+while (x >= 98)
 {
 if (x == 98)
 {
@@ -26,7 +26,7 @@ printf("%i, ", x);
 x--;
 }
 }
-if (x < 98)
+else if (x < 98)
 {
 while (x <= 98)
 {
