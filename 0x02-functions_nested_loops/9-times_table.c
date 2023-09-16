@@ -14,21 +14,23 @@ if (product > 9)
 {
 int l_num = product % 10;
 int f_num = (product - l_num) / 10;
+_putchar(44);
+_putchar(32);
 _putchar(f_num + '0');
 _putchar(l_num + '0');
 }
 else
 {
-_putchar((a * b) + '0');
-}
-if (b == 9)
-;
-else
+if (b != 0)
 {
-_putchar(',');
-_putchar('\t');
+_putchar(44);
+_putchar(32);
+_putchar(32);
+}
+_putchar(product + '0');
 }
 }
 _putchar('\n');
 }
 }
+
