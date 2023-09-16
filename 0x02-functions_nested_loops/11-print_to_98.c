@@ -9,7 +9,6 @@ void print_to_98(int x)
 if (x == 98)
 {
 printf("%i\n", x);
-
 }
 else if (x > 98)
 {
@@ -34,7 +33,7 @@ if (x == 98)
 {
 printf("%i\n", x);
 }
-else 
+else
 {
 printf("%i, ", x);
 }
@@ -42,4 +41,3 @@ x++;
 }
 }
 }
-
